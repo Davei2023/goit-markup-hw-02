@@ -11,43 +11,48 @@
 body {
     color: var(--color-prymary);
     font-family: 'Roboto', sans-serif;
-}
-
-.header-von {
-    color: var(--color-prymary);
+    font-size:0,02em;
 }
 
 .nav-link {
     color: var(--color-prymary);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0,03em;
 
 }
 .logo-web {
     color: var(--color-von);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0,03em;
 }
 
 /*link*/
 
 .anav-priority {
     color: var(--color-prymary);
-
+    letter-spacing: 0,02em;
 }
 
-.anav-priority:hover {
+.anav-priority:hover,
+.anav-priority:focus {
     color: var(--color-stile);
+    letter-spacing: 0,02em;
 }
 
 .nav-mailto {
     color: var(--color-set);
-
+    letter-spacing: 0,02em;
 }
     
-.nav-mailto:hover {
+.nav-mailto:hover,
+.nav-mailto:focus {
     color: var(--color-stile);
-
+    letter-spacing: 0,02em;
 }
 
 .nav-tel {
     color: var(--color-set);
+    letter-spacing: 0,02em;
 
 }
 
@@ -67,39 +72,28 @@ body {
     background-color: var(--color-von);
     border: none;
     cursor: pointer;
-
+    font-family: 'Roboto', sans-serif;
+    font-size:0,04em;
 }
 
-.button-ven:hover {
+.button-ven:hover,
+.button-ven:focus {
     color: var(--color-non);
-    background-color: var(--color-stile)
+    background-color: var(--color-stile);
+    font-family: 'Roboto', sans-serif;
+    font-size:0,04em;
 }
 
 /*advantages-section*/
 
-.h3-startegy {
+.advantages-section {
     color: var(--color-prymary);
-
-}
-
-.h3-punctuality {
-    color: var(--color-prymary);
-
-}
-
-.h3-deligence {
-    color: var(--color-prymary);
-
-}
-
-.h3-technologies {
-    color: var(--color-prymary);
-
+    font-size:0,02em;
 }
 
 .p-non {
     color: var(--color-prymary);
-
+    font-size:0,02em;
 }
 
 /*ourteam-section*/
@@ -108,29 +102,12 @@ body {
     color: var(--color-secondary);
 }
 
-.h2-ourteam {
-    color: var(--color-prymary);
-
-}
-
-.h3-mark {
-    color: var(--color-prymary);
-
-}
-
-.h3-tom {
-    color: var(--color-prymary);
-
-}
-
-.h3-camila {
-    color: var(--color-prymary);
-
-}
-
-.h3-daniel {
-    color: var(--color-prymary);
-
+.h2-ourteam,
+.h3-mark,
+.h3-tom,
+.h3-camila,
+.h3-daniel{
+    color: var(--color-prymary);    
 }
 
 .p-par {
@@ -142,47 +119,24 @@ body {
 
 .h2-portfolio {
     color: var(--color-prymary);
-
 }
 
 .image-portfolio {
-    color: var(--color-imag);
     background-color:var(--color-non);
+    border: var(--color-imag);
 }
 
-.h3-banking {
+.h3-banking,
+.h3-payment,
+.h3-meditation,
+.h3-taxi, 
+.h3-screen, 
+.h3-course  {
     color: var(--color-prymary);
-
-}
-
-.h3-payment {
-    color: var(--color-prymary);
-
-}
-
-.h3-meditation {
-    color: var(--color-prymary);
-
-}
-
-.h3-taxi {
-    color: var(--color-prymary);
-
-}
-
-.h3-screen {
-    color: var(--color-prymary);
-
-}
-
-.h3-course {
-    color: var(--color-prymary);
-
 }
 
 .p-ourparagraf {
     color: var(--color-set);
-
 }
 
 /*footer*/
@@ -193,8 +147,9 @@ body {
 
 .logo-button {
     color: var(--color-secondary);
+    font-family: 'Raleway', sans-serif;
+    font-size:0,03em;
 }
-
 
 .paragraf-futer {
     color: var(--color-secondary);
