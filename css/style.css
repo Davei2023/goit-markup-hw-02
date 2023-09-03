@@ -53,7 +53,6 @@ body {
 .nav-tel {
     color: var(--color-set);
     letter-spacing: 0,02em;
-
 }
 
 /*efective-section*/
@@ -64,7 +63,6 @@ body {
 
 .hiro-title {
     color: var(--color-non);
-
 }
 
 .button-ven {
@@ -107,7 +105,7 @@ body {
 .h3-tom,
 .h3-camila,
 .h3-daniel{
-    color: var(--color-prymary);    
+    color: var(--color-prymary);
 }
 
 .p-par {
