@@ -1,15 +1,173 @@
-body {
-    color:  #f4f4fd    
+:root {
+--color-prymary:#2E2F42;
+--color-secondary: #f4f4fd;
+--color-von:#4D5AE5;
+--color-stile:#404BBF;
+--color-set:#434455;
+--color-non:#FFFFFF;
+--color-imag:#E7E9FC;
 }
 
-.nav-webstudio {
-    color: #2E2F42;
+.body {
+    color: var(--color-secondary);
 }
 
+.header-von {
+    color: var(--color-prymary);
+}
+
+.nav-link {
+    color: var(--color-prymary);
+}
 .logo-web {
-    color: #4D5AE5;
+    color: var(--color-von);
 }
 
-.nav-priority {
-    color: #2E2F42;
+/*link*/
+
+.anav-priority {
+    color: var(--color-prymary);
+}
+
+.anav-priority:hover {
+    color: var(--color-stile);
+}
+
+.nav-mailto {
+    color: var(--color-set);
+}
+    
+.nav-mailto:hover {
+    color: var(--color-stile);
+}
+
+.nav-tel {
+    color: var(--color-set);
+}
+
+/*efective-section*/
+
+.effective-section {
+    background-color: var(--color-prymary);
+}
+
+.hiro-title {
+    color: var(--color-non);
+}
+
+.button-ven {
+    color: var(--color-non);
+    background-color: var(--color-von);
+    border: none;
+    cursor: pointer;
+}
+
+.button-ven:hover {
+    color: var(--color-non);
+    background-color: var(--color-stile)
+}
+
+/*advantages-section*/
+
+.h3-startegy {
+    color: var(--color-prymary);
+}
+
+.h3-punctuality {
+    color: var(--color-prymary);
+}
+
+.h3-deligence {
+    color: var(--color-prymary);
+}
+
+.h3-technologies {
+    color: var(--color-prymary);
+}
+
+.p-non {
+    color: var(--color-prymary);
+}
+
+/*ourteam-section*/
+
+.ourteam-section {
+    color: var(--color-secondary);
+}
+
+.h2-ourteam {
+    color: var(--color-prymary);
+}
+
+.h3-mark {
+    color: var(--color-prymary);
+}
+
+.h3-tom {
+    color: var(--color-prymary);
+}
+
+.h3-camila {
+    color: var(--color-prymary);
+}
+
+.h3-daniel {
+    color: var(--color-prymary);
+}
+
+.p-par {
+    color: var(--color-set);
+}
+
+/*our-porfolio*/
+
+.h2-portfolio {
+    color: var(--color-prymary);
+}
+
+.image-portfolio {
+    color: var(--color-imag);
+}
+
+.h3-banking {
+    color: var(--color-prymary);
+}
+
+.h3-payment {
+    color: var(--color-prymary);
+}
+
+.h3-meditation {
+    color: var(--color-prymary);
+}
+
+.h3-taxi {
+    color: var(--color-prymary);
+}
+
+.h3-screen {
+    color: var(--color-prymary);
+}
+
+.h3-course {
+    color: var(--color-prymary);
+}
+
+.p-ourparagraf {
+    color: var(--color-set);
+}
+
+/*footer*/
+
+.footer {
+    background-color:var(--color-prymary);
+}
+
+.logo-button {
+    color: var(--color-secondary);
+}
+
+
+.paragraf-futer {
+    color: var(--color-secondary);
 }
