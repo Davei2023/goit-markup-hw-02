@@ -8,8 +8,9 @@
 --color-imag:#E7E9FC;
 }
 
-.body {
-    color: var(--color-secondary);
+body {
+    color: var(--color-prymary);
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-von {
@@ -18,6 +19,7 @@
 
 .nav-link {
     color: var(--color-prymary);
+
 }
 .logo-web {
     color: var(--color-von);
@@ -27,6 +29,7 @@
 
 .anav-priority {
     color: var(--color-prymary);
+
 }
 
 .anav-priority:hover {
@@ -35,14 +38,17 @@
 
 .nav-mailto {
     color: var(--color-set);
+
 }
     
 .nav-mailto:hover {
     color: var(--color-stile);
+
 }
 
 .nav-tel {
     color: var(--color-set);
+
 }
 
 /*efective-section*/
@@ -53,6 +59,7 @@
 
 .hiro-title {
     color: var(--color-non);
+
 }
 
 .button-ven {
@@ -60,6 +67,7 @@
     background-color: var(--color-von);
     border: none;
     cursor: pointer;
+
 }
 
 .button-ven:hover {
@@ -71,22 +79,27 @@
 
 .h3-startegy {
     color: var(--color-prymary);
+
 }
 
 .h3-punctuality {
     color: var(--color-prymary);
+
 }
 
 .h3-deligence {
     color: var(--color-prymary);
+
 }
 
 .h3-technologies {
     color: var(--color-prymary);
+
 }
 
 .p-non {
     color: var(--color-prymary);
+
 }
 
 /*ourteam-section*/
@@ -97,64 +110,79 @@
 
 .h2-ourteam {
     color: var(--color-prymary);
+
 }
 
 .h3-mark {
     color: var(--color-prymary);
+
 }
 
 .h3-tom {
     color: var(--color-prymary);
+
 }
 
 .h3-camila {
     color: var(--color-prymary);
+
 }
 
 .h3-daniel {
     color: var(--color-prymary);
+
 }
 
 .p-par {
     color: var(--color-set);
+
 }
 
 /*our-porfolio*/
 
 .h2-portfolio {
     color: var(--color-prymary);
+
 }
 
 .image-portfolio {
     color: var(--color-imag);
+    background-color:var(--color-non);
 }
 
 .h3-banking {
     color: var(--color-prymary);
+
 }
 
 .h3-payment {
     color: var(--color-prymary);
+
 }
 
 .h3-meditation {
     color: var(--color-prymary);
+
 }
 
 .h3-taxi {
     color: var(--color-prymary);
+
 }
 
 .h3-screen {
     color: var(--color-prymary);
+
 }
 
 .h3-course {
     color: var(--color-prymary);
+
 }
 
 .p-ourparagraf {
     color: var(--color-set);
+
 }
 
 /*footer*/
