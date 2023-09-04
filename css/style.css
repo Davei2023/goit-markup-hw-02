@@ -194,16 +194,25 @@ body {
     background-color:var(--color-prymary);
 }
 
-.logo-button {
-    color: var(--color-secondary);
+.image-button {
+    color: var(--color-von);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
 }
+
+.image-web {
+    color: var(--color-secondary);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
 
 .paragraf-futer {
     color: var(--color-secondary);
