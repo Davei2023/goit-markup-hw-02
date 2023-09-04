@@ -6,22 +6,28 @@
 --color-set:#434455;
 --color-non:#FFFFFF;
 --color-imag:#E7E9FC;
+--color-web:#4d5ae5;
 }
 
 body {
-    color: var(--color-prymary);
+    color: var(--color-non);
+    background-color: var(--color-non);
     font-family: 'Roboto', sans-serif;
-    font-size:0,02em;
+    font-size: 0,02em;
 }
 
 .nav-link {
-    color: var(--color-prymary);
-    font-family: 'Roboto', sans-serif;
+    color: var(--color-web);
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 0,03em;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+
 
 }
 .logo-web {
-    color: var(--color-von);
+    color: var(--color-prymary);
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0,03em;
 }
@@ -31,34 +37,54 @@ body {
 .anav-priority {
     color: var(--color-prymary);
     letter-spacing: 0,02em;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .anav-priority:hover,
 .anav-priority:focus {
     color: var(--color-stile);
     letter-spacing: 0,02em;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .nav-mailto {
     color: var(--color-set);
     letter-spacing: 0,02em;
+    font-weight: 500;
+    line-height: 1.5;
+
 }
     
 .nav-mailto:hover,
 .nav-mailto:focus {
     color: var(--color-stile);
     letter-spacing: 0,02em;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
-.nav-tel {
+.new-style {
+    font-style: normal;
+
+}
+
+.nav-telefon {
     color: var(--color-set);
     letter-spacing: 0,02em;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 /*efective-section*/
 
 .effective-section {
     background-color: var(--color-prymary);
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.07
 }
 
 .hiro-title {
@@ -71,7 +97,9 @@ body {
     border: none;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
-    font-size:0,04em;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .button-ven:hover,
@@ -80,6 +108,8 @@ body {
     background-color: var(--color-stile);
     font-family: 'Roboto', sans-serif;
     font-size:0,04em;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 /*advantages-section*/
@@ -100,41 +130,62 @@ body {
     color: var(--color-secondary);
 }
 
-.h2-ourteam,
-.h3-mark,
-.h3-tom,
-.h3-camila,
-.h3-daniel{
+.clas-ourteam,
+.clas-mark,
+.clas-tom,
+.clas-camila,
+.clas-daniel{
     color: var(--color-prymary);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em
 }
 
-.p-par {
+.tabl-par {
     color: var(--color-set);
-
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*our-porfolio*/
 
-.h2-portfolio {
+.ourteam-section {
+    background-color: var(--color-secondary)
+
+}
+
+.our-portfolio {
     color: var(--color-prymary);
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    line-height: 1.5
 }
 
 .image-portfolio {
-    background-color:var(--color-non);
-    border: var(--color-imag);
+    background-color: var(--color-non)
 }
 
-.h3-banking,
-.h3-payment,
-.h3-meditation,
-.h3-taxi, 
-.h3-screen, 
-.h3-course  {
+.text-banking,
+.text-payment,
+.text-meditation,
+.text-taxi, 
+.text-screen, 
+.text-course  {
     color: var(--color-prymary);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
 }
 
-.p-ourparagraf {
+.our-ourparagraf {
     color: var(--color-set);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*footer*/
@@ -146,9 +197,16 @@ body {
 .logo-button {
     color: var(--color-secondary);
     font-family: 'Raleway', sans-serif;
-    font-size:0,03em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
 }
 
 .paragraf-futer {
     color: var(--color-secondary);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
