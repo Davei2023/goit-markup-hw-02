@@ -52,11 +52,13 @@
     letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.5;
+    font-size: 16px;
   }
   
   .nav-mailto:hover,
   .nav-mailto:focus {
     color: var(--color-stile);
+
   }
   
   .new-style {
@@ -68,6 +70,7 @@
     letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.5;
+    font-size: 16px;
   }
   
   /*effective-section*/
@@ -113,21 +116,19 @@
     font-size: 0.02em;
   }
   
-  .dok-strategy,
-  .dok-punctuality,
-  .dok-deligence,
-  .dok-technologies {
+  .dok-startegy {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
   }
-  
+
   .blank-non {
     color: var(--color-set);
     font-size: 0.02em;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-size: 16px;
+
   }
   
   /*ourteam-section*/
@@ -142,10 +143,11 @@
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
+    text-align: center;
   }
   
 .fotografy {
-    background-color: #FFFFFF
+    background-color: var(--color-non)
 }
 
   .clas-mark {
@@ -182,19 +184,13 @@
   .image-portfolio {
     background-color: var(--color-non);
   }
-  
-  .text-banking,
-  .text-payment,
-  .text-meditation,
-  .text-taxi,
-  .text-screen,
-  .text-course {
+  .text-screen {
     color: var(--color-prymary);
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     text-align: center;
     text-transform: capitalize;
   }
@@ -234,4 +230,5 @@
   .paragraf-futer {
     color: var(--color-secondary);
     line-height: 1.5;
+    letter-spacing: 0.02em;
   }
