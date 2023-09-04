@@ -64,7 +64,7 @@
   .new-style {
     font-style: normal;
   }
-  
+
   /*effective-section*/
   
   .effective-section {
@@ -120,6 +120,7 @@
     font-size: 0.02em;
     line-height: 1.5;
     font-size: 16px;
+    letter-spacing: 0.02em;
 
   }
   
@@ -127,6 +128,7 @@
   
   .ourteam-section {
     color: var(--color-secondary);
+    background-color: var(--color-secondary)
   }
   
   .men-ourteam {
@@ -138,6 +140,10 @@
     text-align: center;
   }
   
+.femely-clas {
+    background-color: var(--color-non)
+}
+
 .fotografy {
     background-color: var(--color-non)
 }
@@ -159,7 +165,7 @@
   }
   
   /*our-porfolio*/
- 
+
   .our-portfolio {
     color: var(--color-prymary);
     font-size: 36px;
@@ -175,9 +181,8 @@
   .text-screen {
     color: var(--color-prymary);
     font-weight: 500;
-    font-size: 20px;
     letter-spacing: 0.02em;
-    font-size: 36px;
+    font-size: 20px;
     line-height: 1.2;
     text-align: center;
     text-transform: capitalize;
