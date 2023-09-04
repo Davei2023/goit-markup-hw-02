@@ -39,14 +39,12 @@
     letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.5;
+    font-size: 16px;
   }
   
   .anav-priority:hover,
   .anav-priority:focus {
     color: var(--color-stile);
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    line-height: 1.5;
   }
   
   .nav-mailto {
@@ -59,9 +57,6 @@
   .nav-mailto:hover,
   .nav-mailto:focus {
     color: var(--color-stile);
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    line-height: 1.5;
   }
   
   .new-style {
@@ -107,11 +102,8 @@
   .button-ven:hover,
   .button-ven:focus {
     color: var(--color-non);
-    background-color: var(--color-stile);
     font-family: 'Roboto', sans-serif;
-    font-size: 0.04em;
-    font-weight: 500;
-    line-height: 1.5;
+    background-color: var(--color-stile);
   }
   
   /*advantages-section*/
@@ -131,7 +123,7 @@
     letter-spacing: 0.02em;
   }
   
-  .p-non {
+  .blank-non {
     color: var(--color-set);
     font-size: 0.02em;
     line-height: 1.5;
@@ -144,7 +136,7 @@
     color: var(--color-secondary);
   }
   
-  .men-team {
+  .men-ourteam {
     color: var(--color-prymary);
     letter-spacing: 0.02em;
     font-size: 36px;
@@ -152,10 +144,11 @@
     text-transform: capitalize;
   }
   
-  .clas-mark,
-  .clas-tom,
-  .clas-camila,
-  .clas-daniel {
+.fotografy {
+    background-color: #FFFFFF
+}
+
+  .clas-mark {
     background-color: var(--color-non);
     color: var(--color-prymary);
     font-weight: 500;
@@ -168,6 +161,7 @@
     color: var(--color-set);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-size: 16px;
   }
   
   /*our-porfolio*/
@@ -198,14 +192,18 @@
     color: var(--color-prymary);
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
   }
   
   .our-ourparagraf {
     color: var(--color-set);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-size: 16px;
   }
   
   /*footer*/
@@ -236,5 +234,4 @@
   .paragraf-futer {
     color: var(--color-secondary);
     line-height: 1.5;
-    letter-spacing: 0.02em;
   }
