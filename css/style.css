@@ -65,14 +65,6 @@
     font-style: normal;
   }
   
-  .nav-telefon {
-    color: var(--color-set);
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    line-height: 1.5;
-    font-size: 16px;
-  }
-  
   /*effective-section*/
   
   .effective-section {
@@ -167,11 +159,7 @@
   }
   
   /*our-porfolio*/
-  
-  .ourteam-section {
-    background-color: var(--color-secondary);
-  }
-  
+ 
   .our-portfolio {
     color: var(--color-prymary);
     font-size: 36px;
